@@ -2,6 +2,8 @@ import React from "react";
 import { View, Image, Text } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { styles } from "../constants/Styles";
+//this file contains the HomeScreen, which is the landing page of the app.
+
 
 /* Our HomeScreen is a React Component. Remember, every component is just
     a function that takes in props and returns JSX. We usually use object

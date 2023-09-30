@@ -1,3 +1,4 @@
+// this file contains the list of all MDB members.
 const nameToPic = {
 	ambercheng: ["Amber Cheng", require("../assets/MemberPictures/ambercheng.jpg")],
 	anishsasanur: ["Anish Sasanur", require("../assets/MemberPictures/anishsasanur.png")],

@@ -14,6 +14,10 @@ import GameScreen from "./screens/GameScreen";
 import { nameToPic } from "./constants/Constants";
 import { Asset } from "expo-asset";
 
+//this file serves as the entry point of the application. Defines the app navigation stack.
+
+
+
 // To initialize and style our Navigation Stack, we call the default methods
 // https://reactnavigation.org/docs/hello-react-navigation
 const Stack = createStackNavigator();

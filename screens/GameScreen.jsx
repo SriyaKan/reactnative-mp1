@@ -5,6 +5,9 @@ import { styles } from "../constants/Styles";
 import { nameToPic } from "../constants/Constants";
 import { useEffect } from "react";
 import { shuffle } from "../utils/ArrayUtils";
+
+//this file contains the GameScreen, which is where the game is played.
+
 const names = Object.keys(nameToPic);
 
 export default function GameScreen() {

@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+//this file contains the CSS stylesheet for the app.
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
