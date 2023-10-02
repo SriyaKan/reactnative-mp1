@@ -13,6 +13,12 @@ const names = Object.keys(nameToPic);
 export default function GameScreen() {
   // TODO: Declare and initialize state variables here, using "useState".
 
+  // State for the timer is handled for you.
+  // 5 second timer 
+  const [timeLeft, setTimeLeft] = useState(5000); //5000 milliseconds aka 5 seconds
+  //setTimeLeft updates the timeLeft variable with new value 
+  //component rerenders with the updated state
+
   //score is set to 0 for beginning of game 
   //setScore will update score
   const [currentScore, setCurrentScore] = useState(0);
@@ -33,11 +39,6 @@ export default function GameScreen() {
   //initializes correctPicture with initial value of empty string ""
   //setCorrectPicture will update correctPicture
 
-  // State for the timer is handled for you.
-  // 5 second timer 
-  const [timeLeft, setTimeLeft] = useState(5000); //5000 milliseconds aka 5 seconds
-  //setTimeLeft updates the timeLeft variable with new value 
-  //component rerenders with the updated state
 
   //Functional component called countDown 
   // Called by the timer every 10 seconds
